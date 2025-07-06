@@ -5,10 +5,14 @@
 
 ## 📊 Visualization Added
 
-This version includes a bar chart showing average sales per product category.
+This version includes a bar chart and a line chart showing average sales per product category.
+
+- Bar chart of average sales per product category (`avg_sales_by_category.png`)
+- Line chart of total sales per day (`daily_sales_line_chart.png`)
+- Charts are automatically saved as image files
 
 ### 📈 Graph example:
-plt.savefig(data_graph.png)
+plt.savefig(data_graph.pnger)
 ```python
 import matplotlib.pyplot as plt
 
