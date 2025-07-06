@@ -1,6 +1,20 @@
+
 # 📊 Data Cleaning Project
 
   My second project to clean and analyze sales data using Python and pandas.
+
+## 📊 Visualization Added
+
+This version includes a bar chart showing average sales per product category.
+
+### 📈 Graph example:
+plt.savefig(data_graph.png)
+```python
+import matplotlib.pyplot as plt
+
+avg_sales.plot(kind="bar")
+plt.title("Average Sales by Product Category")
+plt.show()
 
 ## 🔧 What this project does
 
